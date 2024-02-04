@@ -33,16 +33,20 @@ const Navbar = () => {
   }, []);
   const navbarHeight = scrolling ? "h-20" : "h-30";
   return (
-    <div className={`fixed w-full  ${scrolling ? 'bg-black' : 'bg-transparent'}`}>
+    <div
+      className={`fixed w-full  ${scrolling ? "bg-black" : "bg-transparent"}`}
+    >
       <div>
-        <div className={` flex ${navbarHeight}  flex-row justify-between p-5 md:px-32 px-5 bg-transparent text-white`}>
+        <div
+          className={` flex ${navbarHeight}  flex-row justify-between p-5 md:px-32 px-5 bg-transparent text-white`}
+        >
           <div className=" flex flex-row items-center cursor-pointer">
             <span>
-              <img src={logo}/>
+              <img src={logo} />
             </span>
-            <h1 className=" text-xl font-semibold"><span className="text-yellow-500">
-            DAN JR 
-              </span> WEDDING BIRYANI</h1>
+            <h1 className=" text-xl font-semibold">
+              <span className="text-yellow-500">DAN JR</span> WEDDING BIRYANI
+            </h1>
           </div>
 
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
@@ -137,7 +141,6 @@ const Navbar = () => {
             >
               About
             </Link>
-
 
             <Link
               to="review"

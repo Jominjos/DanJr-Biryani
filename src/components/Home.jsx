@@ -13,7 +13,9 @@ const Home = () => {
           <div>in Wedding Style</div>
         </h1>
         <p className="text-backgroundColor space-y-5 lg:w-4/6">
-          Discover the art of Viragu Aduppu Biryani, crafted in wedding style. Immerse yourself in authentic flavors, straight from our cloud kitchen to your table. A culinary ode to Tamil Nadu's taste buds
+          Discover the art of Viragu Aduppu Biryani, crafted in wedding style.
+          Immerse yourself in authentic flavors, straight from our cloud kitchen
+          to your table. A culinary ode to Tamil Nadu's taste buds
         </p>
         <div className="">
           <Button title="Order Now" />
@@ -22,5 +24,5 @@ const Home = () => {
     </div>
   );
 };
-
+//j
 export default Home;

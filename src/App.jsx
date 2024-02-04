@@ -33,7 +33,6 @@ const App = () => {
         <div id="review">
           <Review />
         </div>
-        
       </main>
 
       <Footer />

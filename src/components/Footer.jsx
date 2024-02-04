@@ -10,7 +10,9 @@ const Footer = () => {
         <div className=" w-full md:w-1/4">
           <h1 className=" font-semibold text-xl pb-4">DanJr</h1>
           <p className=" text-sm">
-          For inquiries or assistance, reach us at the provided contact number. We look forward to serving you the best of Danjr Wedding Biriyani!
+            For inquiries or assistance, reach us at the provided contact
+            number. We look forward to serving you the best of Danjr Wedding
+            Biriyani!
           </p>
         </div>
         <div>
@@ -87,8 +89,10 @@ const Footer = () => {
         <p>
           <p className=" text-center py-4">
             @copyright developed by
-            <span className=" text-brightColor">© Dan Jr Wedding Biriyani 2024</span> |
-            All rights reserved
+            <span className=" text-brightColor">
+              © Dan Jr Wedding Biriyani 2024
+            </span>{" "}
+            | All rights reserved
           </p>
         </p>
       </div>
